@@ -1,1 +1,1 @@
-# Vendor Extractor Package
+# Vendor Extractor package
