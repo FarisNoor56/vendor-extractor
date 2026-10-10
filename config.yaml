@@ -1,0 +1,22 @@
+categories:
+  cloth:
+    url: "https://dir.indiamart.com/impcat/cloth.html"
+  plastic_materials:
+    url: "https://dir.indiamart.com/impcat/plastic-materials.html"
+  packaging:
+    url: "https://dir.indiamart.com/impcat/packaging.html"
+
+city: "bengaluru"
+state: "karnataka"
+
+crawling:
+  max_pages: 10
+  delay_min: 2
+  delay_max: 5
+  max_retries: 2
+  backoff_factor: 2.0
+
+output:
+  db_path: "data/vendors.db"
+  html_cache_dir: "data/html_cache"
+  excel_output: "data/vendors.xlsx"
